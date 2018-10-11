@@ -38,7 +38,7 @@ public class TestDriver {
 	    job1.setMapOutputValueClass(Text.class);
 //	    job1.setInputFormatClass(TextInputFormat.class);
 //	   job1.setCombinerClass(WordCombiner.class);
-  	   job1.setNumReduceTasks(14);
+  	   job1.setNumReduceTasks(20);
 	    FileInputFormat.addInputPath(job1, Input_PATH);
 	    FileOutputFormat.setOutputPath(job1, Output_PATH);
 
